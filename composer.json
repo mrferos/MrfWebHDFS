@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "email": "me@andresgalindo.us",
+            "name": "Andres Galindo",
+            "role": "Lead"
+        }
+    ],
+    "require": {
+        "mrferos/webhdfs": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebHDFS\\": "src/"
+        },
+        "classmap": ["Module.php"]
+    },
+    "license": "MIT",
+    "name": "mrferos/zf2-webhdfs",
+    "homepage": "https://github.com/mrferos/MrfWebHDFS",
+    "support": {
+        "issues": "https://github.com/mrferos/MrfWebHDFS/issues",
+        "source": "https://github.com/mrferos/MrfWebHDFS"
+    },
+}

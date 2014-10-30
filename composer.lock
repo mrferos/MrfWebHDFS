@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e665929e39920fbe870557bf9310f6db",
+    "packages": [
+        {
+            "name": "mrferos/webhdfs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrferos/php-WebHDFS.git",
+                "reference": "269bd1876b4f5a9b379f93e2a15cb8229494bde0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrferos/php-WebHDFS/zipball/269bd1876b4f5a9b379f93e2a15cb8229494bde0",
+                "reference": "269bd1876b4f5a9b379f93e2a15cb8229494bde0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebHDFS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andres Galindo",
+                    "email": "me@andresgalindo.us",
+                    "role": "Lead"
+                }
+            ],
+            "description": "WebHDFS implementation in PHP",
+            "homepage": "https://github.com/mrferos/php-WebHDFS",
+            "keywords": [
+                "webhdfs"
+            ],
+            "time": "2014-10-30 23:37:42"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mrferos/webhdfs": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
