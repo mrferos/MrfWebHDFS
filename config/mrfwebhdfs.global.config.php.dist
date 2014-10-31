@@ -1,0 +1,8 @@
+<?php
+return array(
+    'WebHDFSExample' => array(
+        'username' => 'mrferos',
+        'host' => 'localhost',
+        'port' => 50070
+    )
+);
