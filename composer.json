@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WebHDFS\\": "src/"
+            "MrfWebHDFS\\": "src/"
         },
         "classmap": ["Module.php"]
     },
