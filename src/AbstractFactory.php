@@ -10,7 +10,7 @@ use \RuntimeException;
 class AbstractFactory implements AbstractFactoryInterface
 {
     const SERVICE_PREFIX = 'WebHDFS';
-    protected $_requiredKeys = array('username', 'port', 'host');
+    protected $_requiredKeys = array('user', 'port', 'host');
 
     public function canCreateServiceWithName(ServiceLocatorInterface $serviceLocator, $name, $requestedName)
     {
