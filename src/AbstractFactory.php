@@ -34,6 +34,6 @@ class AbstractFactory implements AbstractFactoryInterface
         }
 
         // BIG DATA TIME!
-        return new WebHDFS($webHdfsConfigs['username'], $webHdfsConfigs['port'], $webHdfsConfigs['user']);
+        return new WebHDFS($webHdfsConfigs['host'], $webHdfsConfigs['port'], $webHdfsConfigs['user']);
     }
 }
