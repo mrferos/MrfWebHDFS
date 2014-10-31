@@ -6,7 +6,9 @@ class Module
     public function getServiceConfig()
     {
         return array(
-            'abstract_factories' => 'MrfWebHDFS\\AbstractFactory'
+            'abstract_factories' => array(
+                'webhdfs' => 'MrfWebHDFS\\AbstractFactory'
+            )
         );
     }
 }
