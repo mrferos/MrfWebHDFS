@@ -1,5 +1,11 @@
 # MrfWebHDFS
 
+## Installation
+
+```bash
+composer require mrferos/zf2-webhdfs:dev-master
+```
+
 ## Description 
 
 A simple ZF2 module providing an Abstract Factory to create instances of [php-WebHDFS](https://github.com/mrferos/php-WebHDFS)
