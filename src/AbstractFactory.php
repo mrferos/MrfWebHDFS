@@ -27,9 +27,10 @@ class AbstractFactory implements AbstractFactoryInterface
 
         // Make sure they're all there...
         $webHdfsConfigs = $config[$requestedName];
-        $missingKeys = array_diff($this->_requiredKeys, array_keys($webHdfsConfigs));
-        if (!empty($missingKeys)) {
-            throw new RuntimeException('Missing configuration key(s): ' . implode(', ', $missingKeys));
+        foreach ($this->_requiredKeys as $key) {
+            if (!array_key_exists($key, $webHdfsConfigs)) {
+                throw new RuntimeException('Missing key ' . $key . ' in configuration');
+            }
         }
 
         // BIG DATA TIME!
