@@ -1,4 +1,5 @@
 <?php
+namespace MrfWebHDFS;
 
 class Module
 {
